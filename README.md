@@ -18,8 +18,6 @@ A simple **Fake News Detection** web app using **Machine Learning** and **Flask*
 - Flask
 - Scikit-Learn
 - HTML, CSS, JavaScript
-- Chart.js
-- Confetti.js
 
 ---
 
