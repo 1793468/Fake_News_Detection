@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    width: 400px;
+}
+
+form:hover {
+    transform: scale(1.05);
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.result-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.result-container h1 {
+    font-size: 40px;
+    color: #333;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.fake {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    animation: scale 1s ease-in-out infinite alternate;
+}
+
+.real {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    animation: scale 1s ease-in-out infinite alternate;
+}
+
+.unknown {
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.try-again {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0072ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.try-again:hover {
+    background: #0056b3;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
