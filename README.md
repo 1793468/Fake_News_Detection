@@ -24,4 +24,17 @@ A simple **Fake News Detection** web app using **Machine Learning** and **Flask*
 ---
 
 ## 📂 Project Structure
-Fake_News_Detection/ │ ├─ static/ # CSS & JS Files │ ├─ style.css # Styling │ ├─ script.js # Client-side validation │ ├─ chart.js # Chart.js for visualization │ ├─ templates/ # HTML Templates │ ├─ index.html # Home Page │ ├─ result.html # Prediction Page │ ├─ fake_news_model.pkl # Saved ML Model ├─ tfidf_vectorizer.pkl # TF-IDF Vectorizer ├─ app.py # Flask Backend ├─ requirements.txt # Dependencies └─ README.md # Documentation
+Fake_News_Detection/
+│
+├─ static/                  
+│   ├─ style.css            # Custom CSS
+│   ├─ script.js            # JavaScript Animations
+│   ├─ chart.js             # Visualization Script
+├─ templates/               
+│   ├─ index.html           # Homepage
+│   ├─ result.html          # Prediction Page
+├─ fake_news_model.pkl      # Saved ML Model
+├─ tfidf_vectorizer.pkl     # TF-IDF Vectorizer
+├─ app.py                   # Flask Backend
+├─ requirements.txt         # Dependencies List
+└─ README.md                # Project Documentation
